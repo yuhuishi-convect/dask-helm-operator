@@ -36,7 +36,7 @@ IMAGE_TAG_BASE ?= dask.org/dask-helm-operator
 BUNDLE_IMG ?= $(IMAGE_TAG_BASE)-bundle:v$(VERSION)
 
 # Image URL to use all building/pushing image targets
-IMG ?= controller:latest
+IMG ?= dayeye2006/dask-helm-operator:latest
 
 all: docker-build
 
